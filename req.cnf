@@ -1,0 +1,19 @@
+[req]
+distinguished_name = localhost
+x509_extensions = v3_req
+prompt = no
+[localhost]
+C = CA
+ST = Ontario
+L = Toronto
+O = Chapal
+OU = Barua
+CN = localhost
+[v3_req]
+keyUsage = critical, digitalSignature, keyAgreement
+extendedKeyUsage = serverAuth
+subjectAltName = @alt_names
+[alt_names]
+DNS.1 = localhost
+DNS.2 = localhost.com
+DNS.3 = localhost.net
