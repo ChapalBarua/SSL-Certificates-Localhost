@@ -1,4 +1,4 @@
----------------------------------------Instruction Set To Generate LocalHost Certificate with Key-----------------------------------------
+------------------------------Instruction Set To Generate LocalHost Certificate with Key------------------
 
 Place the req.cnf file in a folder. Change the content of the text file (req.cnf) if necessary. Then run the following command using openssl in the same folder.
 
